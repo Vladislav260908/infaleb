@@ -90,8 +90,8 @@ int main() {
                     int zone = 0;
 
                     // Если точка на линии или параболе — это граница
-                    if (std::abs(mathY - line) < 0.05f ||
-                        std::abs(mathY - parabola) < 0.05f) {
+                    if (std::abs(mathY - line) < 0.15f ||
+                        std::abs(mathY - parabola) < 0.15f) {
                         zone = 5;
                     }
                     else if (mathY > line) {
